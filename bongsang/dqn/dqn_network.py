@@ -1,4 +1,12 @@
-
+"""
+ - Author: Bongsang Kim
+ - Contact: happykbs@gmail.com
+ - GitHub: https://github.com/bongsang/
+ - LinkedIn: https://www.linkedin.com/in/bongsang/
+"""
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
 
 class QNetwork(nn.Module):
     def __init__(self, state_size, action_size, seed, fc1_units=64, fc2_units=64):

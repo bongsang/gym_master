@@ -6,7 +6,7 @@ Algorithmic environments have the following traits in common:
 
 Agents control a read head that moves over the input tape. Observations consist
 of the single character currently under the read head. The read head may fall
-off the end of the tape in any direction. When this happens, agents will observe
+off the end of the tape in any direction. When this happens, bongsang will observe
 a special blank character (with index=env.base) until they get back in bounds.
 
 Actions consist of 3 sub-actions:
@@ -30,13 +30,15 @@ been consistently solved over some window of episodes, the environment will
 increase the average length of generated strings. Typical env specs require
 leveling up many times to reach their reward threshold.
 """
+import sys
+from contextlib import closing
+
+import numpy as np
+from six import StringIO
+
 from gym import Env, logger
 from gym.spaces import Discrete, Tuple
 from gym.utils import colorize, seeding
-import sys
-from contextlib import closing
-import numpy as np
-from six import StringIO
 
 
 class AlgorithmicEnv(Env):

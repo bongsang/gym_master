@@ -29,7 +29,7 @@ class GuessingGame(gym.Env):
     The agent will need to use a memory of previously submitted actions and observations
     in order to efficiently explore the available actions
 
-    The purpose is to have agents optimise their exploration parameters (e.g. how far to
+    The purpose is to have bongsang optimise their exploration parameters (e.g. how far to
     explore from previous actions) based on previous experience. Because the goal changes
     each episode a state-value or action-value function isn't able to provide any additional
     benefit apart from being able to tell whether to increase or decrease the next guess.

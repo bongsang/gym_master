@@ -1,4 +1,5 @@
 import numpy as np
+
 import gym
 from gym import spaces
 from gym.utils import seeding
@@ -28,7 +29,7 @@ from gym.utils import seeding
 #
 # To see how it works, run:
 #
-# python examples/agents/keyboard_agent.py CubeCrashScreen-v0
+# python examples/bongsang/keyboard_agent.py CubeCrashScreen-v0
 
 FIELD_W = 32
 FIELD_H = 40

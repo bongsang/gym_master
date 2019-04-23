@@ -1,7 +1,7 @@
-import sys, math
-import numpy as np
+import math
 
 import Box2D
+import numpy as np
 from Box2D.b2 import (edgeShape, circleShape, fixtureDef, polygonShape, revoluteJointDef, contactListener)
 
 import gym
@@ -28,7 +28,7 @@ from gym.utils import seeding, EzPickle
 #
 # To play yourself, run:
 #
-# python examples/agents/keyboard_agent.py LunarLander-v2
+# python examples/bongsang/keyboard_agent.py LunarLander-v2
 #
 # Created by Oleg Klimov. Licensed on the same terms as the rest of OpenAI Gym.
 

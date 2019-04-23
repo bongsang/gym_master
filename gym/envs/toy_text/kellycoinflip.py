@@ -1,5 +1,5 @@
-from scipy.stats import genpareto
 import numpy as np
+from scipy.stats import genpareto
 
 import gym
 from gym import spaces
@@ -97,7 +97,7 @@ class KellyCoinflipGeneralizedEnv(gym.Env):
     the wealth cap until they neared it. With these particular distributions, the
     entire history of the game can be summarized into a few sufficient statistics of
     rounds-elapsed/wins/losses/max-wealth-ever-reached, from which the Bayes-optimal
-    decision can (in theory) be made; to avoid all agents having to tediously track
+    decision can (in theory) be made; to avoid all bongsang having to tediously track
     those sufficient statistics manually in the same way, the observation space is
     augmented from wealth/rounds-left (rounds-left is deleted because it is a hidden
     variable) to current-wealth/rounds-elapsed/wins/losses/maximum-observed-wealth.
@@ -105,7 +105,7 @@ class KellyCoinflipGeneralizedEnv(gym.Env):
     but the Generalized Kelly coinflip game may be intractable (although the analysis
     for the edge case alone suggests that the Bayes-optimal value may be very close to
     what one would calculate using a decision tree for any specific case), and
-    represents a good challenge for RL agents."""
+    represents a good challenge for RL bongsang."""
     metadata = {'render.modes': ['human']}
 
     def __init__(self, initial_wealth=25.0, edge_prior_alpha=7, edge_prior_beta=3,
