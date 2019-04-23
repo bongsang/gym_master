@@ -4,9 +4,9 @@ This package includes both of RL algorithms and OpenAI's gym so that it is prett
 I hope my package will be helpful for accelerating your skills to master Deep RL.
 
 There is nothing to install at all in this package so that you don't need to do like following:
- > git clone https://github.com/openai/gym.git <br>
- > cd gym <br>
- > pip install -e .
+ > <del> git clone https://github.com/openai/gym.git </del><br>
+ > <del> cd gym </del><br>
+ > <del> pip install -e . </del>
 
 You can use instantly. Just try it like "python main.py".
 
