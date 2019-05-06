@@ -1,14 +1,18 @@
 # Bongsang's Gym Master
 This package includes both of RL algorithms and OpenAI's gym so that it is pretty simple to use.
 
-I hope my package will be helpful for accelerating your skills to master Deep RL.
 
-There is nothing to install at all in this package so that you don't need to do like following:
+You don't need to install anything.
  > <del> git clone https://github.com/openai/gym.git </del><br>
  > <del> cd gym </del><br>
  > <del> pip install -e . </del>
 
-You can use instantly. Just try it like "python main.py".
+Simply use it.
+ 
+ > python train.py
+ 
+ 
+I hope my package will be helpful for accelerating your skills to master Deep RL.
 
 Thanks
  > Author: Bongsang Kim <br>
